@@ -1,0 +1,2 @@
+﻿Dışarıdaki micro servicelerin (Catalog, order vs.)  ortak kullanacağı sadece 1 parametre ile rabbitmq ya veya azure service
+bus'a bağlanabilecekleri  factory Librarydir.

@@ -1,0 +1,11 @@
+﻿Proje içerisinde 2 tane servis bus mekanizması olacak(Azure Service Bus ve RabbitMQ)
+Bu base class 2 service bus'ında base classı olacak.
+
+Integration Event
+	=> RabbitMQ veya Azure Service Bus aracılığıyla diğer Servislere haber ulaştıran eventler anlamına gelecek.
+	=> Servisler arası iletişimde kullanılan objeler ve classlar olarak düşünebiliriz.
+
+IEventBus
+	=> IEvent bus bizim için microservicelerin hangi eventlerin subscribe edeceklerini söyledikleri eventBus olacak.
+	=> Bu eventbus tan 2 tane de aynı event bus üreteceğiz. Bunlarından biri RabbitMQ diğeri AzureServiceBus olacak.
+	=> 2 event bus bu interfaceyi kullanarak implementasyonunu yapacak.
