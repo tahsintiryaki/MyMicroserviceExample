@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EventBus.Base.Abstraction
 {
-    public interface IEventBus
+    public interface IEventBus:IDisposable 
     {
         //Bir event fıtlatılacağında kullanılacak metod.
         void Publish(IntegrationEvent @event);
