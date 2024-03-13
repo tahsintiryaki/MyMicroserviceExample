@@ -1,0 +1,3 @@
+﻿Catalog Serivce
+Event bus ile bağlı bir servis olmayacak. Sadece dışarıdan gelen isteği işleyip veritabanından kayıtları dönen bir servis olacak.
+DB: Sql service
